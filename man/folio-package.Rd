@@ -7,26 +7,23 @@
 \alias{folio}
 \title{folio: Datasets for Teaching Archaeology and Paleontology}
 \description{
-Datasets for teaching quantitative approaches and
-    modeling in archaeology and paleontology. This package provides
-    several types of data related to broad topics (cultural evolution,
-    radiocarbon dating, paleoenvironments, etc.), which can be used to
-    illustrate statistical methods in the classroom (multivariate data
-    analysis, compositional data analysis, diversity measurement, etc.).
+\if{html}{\figure{logo.png}{options: align='right' alt='logo' width='120'}}
+
+Datasets for teaching quantitative approaches and modeling in archaeology and paleontology. This package provides several types of data related to broad topics (cultural evolution, radiocarbon dating, paleoenvironments, etc.), which can be used to illustrate statistical methods in the classroom (multivariate data analysis, compositional data analysis, diversity measurement, etc.).
 }
 \details{
 \tabular{ll}{
 \strong{Package:} \tab folio \cr
 \strong{Type:} \tab Package \cr
-\strong{Version:} \tab 1.0.0 \cr
+\strong{Version:} \tab 1.1.0 \cr
 \strong{License:} \tab GPL-3 \cr
+\strong{Zenodo:} \tab \doi{10.5281/zenodo.4476182} \cr
 }
-\doi{10.5281/zenodo.4476182}
 }
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://folio.tesselle.org}
+  \item \url{https://packages.tesselle.org/folio/}
   \item \url{https://github.com/tesselle/folio}
   \item Report bugs at \url{https://github.com/tesselle/folio/issues}
 }
@@ -37,6 +34,7 @@ Useful links:
 
 \tabular{ll}{
 Nicolas Frerebeau \tab \emph{Université Bordeaux Montaigne, France} \cr
+Brice Lebrun \tab \emph{Université Bordeaux Montaigne, France}
 }
 
 \strong{Package maintainer}

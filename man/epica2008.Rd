@@ -5,14 +5,14 @@
 \alias{epica2008}
 \title{EPICA Dome C}
 \format{
-A data frame with 2 variables:
+A \code{\link{data.frame}} with 2 variables:
 \describe{
 \item{age}{Year BP.}
 \item{CO2}{\eqn{CO_2}{CO2} (ppmv).}
 }
 }
 \source{
-\url{https://www.ncdc.noaa.gov/paleo-search/study/6091}
+\url{https://www.ncei.noaa.gov/access/paleo-search/study/6091}
 }
 \usage{
 epica2008
@@ -55,10 +55,11 @@ Jouzel, J. (2005). Stable Carbon Cycle-Climate Relationship During the Late
 Pleistocene. \emph{Science}, 310, 1313-1317. \doi{10.1126/science.1120130}
 }
 \seealso{
-Other palaeoenvironment: 
+Other palaeoenvironment data: 
 \code{\link{law2006}},
 \code{\link{lisiecki2005}},
+\code{\link{ngrip2004}},
 \code{\link{spratt2016}}
 }
-\concept{palaeoenvironment}
+\concept{palaeoenvironment data}
 \keyword{datasets}

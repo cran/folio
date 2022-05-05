@@ -1,3 +1,9 @@
+# folio 1.1.0
+
+* Add the `verre` dataset (chemical data).
+* Add the `ngrip2004` dataset (palaeoclimates).
+* Add the `stratigraphy` dataset (chronological data).
+
 # folio 1.0.0
 
 * Add the `kommos` dataset (chemical data).
@@ -8,8 +14,6 @@
 * Remove the `altamira` dataset.
 
 # folio 0.1.0
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4476183.svg)](https://doi.org/10.5281/zenodo.4476183)
 
 * Add the `altamira`, `birds`, `boves`, `compiegne`, `merzbach`, `mississippi` and `zuni` datasets (count data).
 * Add the `intcal09`, `intcal13` and `intcal20` datasets (radiocarbon calibration curves).

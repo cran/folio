@@ -5,7 +5,7 @@
 \alias{law2006}
 \title{Law Dome Ice Core}
 \format{
-A data frame with 2004 observations and 8 variables:
+A \code{\link{data.frame}} with 2004 observations and 8 variables:
 \describe{
 \item{year}{Year AD.}
 \item{NOAA04}{NOAA04 \eqn{CH_4}{CH4} scale.}
@@ -18,7 +18,7 @@ A data frame with 2004 observations and 8 variables:
 }
 }
 \source{
-\url{https://www.ncdc.noaa.gov/paleo-search/study/9959}
+\url{https://www.ncei.noaa.gov/access/paleo-search/study/9959}
 }
 \usage{
 law2006
@@ -43,10 +43,11 @@ and N2O Ice Core Records Extended to 2000 years BP. \emph{Geophysical
 Research Letters}, 33(14), L14810. \doi{10.1029/2006GL026152}.
 }
 \seealso{
-Other palaeoenvironment: 
+Other palaeoenvironment data: 
 \code{\link{epica2008}},
 \code{\link{lisiecki2005}},
+\code{\link{ngrip2004}},
 \code{\link{spratt2016}}
 }
-\concept{palaeoenvironment}
+\concept{palaeoenvironment data}
 \keyword{datasets}

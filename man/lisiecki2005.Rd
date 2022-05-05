@@ -5,15 +5,15 @@
 \alias{lisiecki2005}
 \title{Global Benthic \eqn{\delta^{18}O}{\delta18O} Stack}
 \format{
-A data frame with 3 variables:
+A \code{\link{data.frame}} with 3 variables:
 \describe{
-\item{age}{Calendar (calibrated) age (kilo year).}
+\item{age}{Calendar age (kilo year cal BP).}
 \item{delta}{Benthic \eqn{\delta^{18}O}{\delta18O} (per mil).}
 \item{error}{Standard error (per mil).}
 }
 }
 \source{
-\url{https://www.ncdc.noaa.gov/paleo-search/study/5847}
+\url{https://www.ncei.noaa.gov/access/paleo-search/study/5847}
 }
 \usage{
 lisiecki2005
@@ -42,15 +42,17 @@ globally distributed benthic d18O records. \emph{Paleoceanography}, 20,
 PA1003. \doi{10.1029/2004PA001071}
 }
 \seealso{
-Other palaeoenvironment: 
+Other palaeoenvironment data: 
 \code{\link{epica2008}},
 \code{\link{law2006}},
+\code{\link{ngrip2004}},
 \code{\link{spratt2016}}
 
 Other isotopic data: 
+\code{\link{ngrip2004}},
 \code{\link{nydal1996}},
 \code{\link{spratt2016}}
 }
 \concept{isotopic data}
-\concept{palaeoenvironment}
+\concept{palaeoenvironment data}
 \keyword{datasets}

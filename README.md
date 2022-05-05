@@ -1,11 +1,26 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# folio
+# folio <img width=120px src="man/figures/logo.png" align="right" />
 
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/tesselle/folio/workflows/R-CMD-check/badge.svg)](https://github.com/tesselle/folio/actions)
+
+<a href="https://tesselle.r-universe.dev" class="pkgdown-devel"><img
+src="https://tesselle.r-universe.dev/badges/folio"
+alt="r-universe" /></a>
+<a href="https://cran.r-project.org/package=folio"
+class="pkgdown-release"><img
+src="http://www.r-pkg.org/badges/version/folio"
+alt="CRAN Version" /></a>
+<a href="https://cran.r-project.org/web/checks/check_results_folio.html"
+class="pkgdown-release"><img
+src="https://cranchecks.info/badges/worst/folio"
+alt="CRAN checks" /></a>
+<a href="https://cran.r-project.org/package=folio"
+class="pkgdown-release"><img
+src="http://cranlogs.r-pkg.org/badges/folio" alt="CRAN Downloads" /></a>
 
 [![Project Status: Active – The project has reached a stable, usable
 state and is being actively
@@ -13,6 +28,8 @@ developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.re
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4476182.svg)](https://doi.org/10.5281/zenodo.4476182)
 <!-- badges: end -->
+
+## Overview
 
 Datasets for teaching quantitative approaches and modeling in
 archaeology and paleontology. This package provides several types of
@@ -95,11 +112,10 @@ segments(
 abline(fit, col = "red")
 ```
 
-![](man/figures/README-unnamed-chunk-2-1.png)<!-- -->
+<img src="man/figures/README-unnamed-chunk-2-1.png" style="display: block; margin: auto;" />
 
 ## Contributing
 
 Please note that the **folio** project is released with a [Contributor
-Code of
-Conduct](https://github.com/tesselle/folio/blob/master/.github/CODE_OF_CONDUCT.md).
-By contributing to this project, you agree to abide by its terms.
+Code of Conduct](https://www.tesselle.org/conduct.html). By contributing
+to this project, you agree to abide by its terms.

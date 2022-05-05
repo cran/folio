@@ -5,7 +5,7 @@
 \alias{spratt2016}
 \title{Late Pleistocene Sea Level Stack}
 \format{
-A data frame with 9 variables:
+A \code{\link{data.frame}} with 9 variables:
 \describe{
 \item{age_calkaBP}{Age (calendar kilo year BP).}
 \item{SeaLev_shortPC1}{Sea Level (meters above present day),
@@ -35,7 +35,7 @@ five sea level reconstructions (0-798 ka)).}
 }
 }
 \source{
-\url{https://www.ncdc.noaa.gov/paleo-search/study/19982}
+\url{https://www.ncei.noaa.gov/access/paleo-search/study/19982}
 }
 \usage{
 spratt2016
@@ -60,15 +60,17 @@ stack. \emph{Climate of the Past}, 12, 1079-1092.
 \doi{10.5194/cp-12-1079-2016}
 }
 \seealso{
-Other palaeoenvironment: 
+Other palaeoenvironment data: 
 \code{\link{epica2008}},
 \code{\link{law2006}},
-\code{\link{lisiecki2005}}
+\code{\link{lisiecki2005}},
+\code{\link{ngrip2004}}
 
 Other isotopic data: 
 \code{\link{lisiecki2005}},
+\code{\link{ngrip2004}},
 \code{\link{nydal1996}}
 }
 \concept{isotopic data}
-\concept{palaeoenvironment}
+\concept{palaeoenvironment data}
 \keyword{datasets}
