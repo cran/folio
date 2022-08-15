@@ -7,7 +7,7 @@
 \alias{folio}
 \title{folio: Datasets for Teaching Archaeology and Paleontology}
 \description{
-\if{html}{\figure{logo.png}{options: align='right' alt='logo' width='120'}}
+\if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
 
 Datasets for teaching quantitative approaches and modeling in archaeology and paleontology. This package provides several types of data related to broad topics (cultural evolution, radiocarbon dating, paleoenvironments, etc.), which can be used to illustrate statistical methods in the classroom (multivariate data analysis, compositional data analysis, diversity measurement, etc.).
 }
@@ -15,7 +15,7 @@ Datasets for teaching quantitative approaches and modeling in archaeology and pa
 \tabular{ll}{
 \strong{Package:} \tab folio \cr
 \strong{Type:} \tab Package \cr
-\strong{Version:} \tab 1.1.0 \cr
+\strong{Version:} \tab 1.2.0 \cr
 \strong{License:} \tab GPL-3 \cr
 \strong{Zenodo:} \tab \doi{10.5281/zenodo.4476182} \cr
 }
@@ -42,7 +42,7 @@ Brice Lebrun \tab \emph{Université Bordeaux Montaigne, France}
 Nicolas Frerebeau\cr
 \email{nicolas.frerebeau@u-bordeaux-montaigne.fr}
 
-IRAMAT-CRP2A (UMR 5060)\cr
+Archéosciences Bordeaux (UMR 6034)\cr
 Maison de l'Archéologie\cr
 Université Bordeaux Montaigne\cr
 F-33607 Pessac cedex\cr

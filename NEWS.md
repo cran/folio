@@ -1,3 +1,9 @@
+# folio 1.2.0
+
+* Add the `munsingen` dataset (artefact data).
+* Add the `ngrip2010` dataset (palaeoclimates).
+* Add the `shipwrecks` dataset (artefact data).
+
 # folio 1.1.0
 
 * Add the `verre` dataset (chemical data).
@@ -10,7 +16,7 @@
 * Add the `chevelon` dataset (count data).
 * Add the `law2006` and `epica2008` datasets (palaeoclimates).
 * Add the `nydal1996` dataset (isotopic data).
-* Add the `arnold1949` dataset (historical radiocarbon dates; "curve of knows").
+* Add the `arnold1949` dataset (historical radiocarbon dates; "Curve of Knowns").
 * Remove the `altamira` dataset.
 
 # folio 0.1.0

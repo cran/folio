@@ -1,6 +1,6 @@
 Package: folio
 Title: Datasets for Teaching Archaeology and Paleontology
-Version: 1.1.0
+Version: 1.2.0
 Authors@R: 
     c(person(given = "Nicolas",
              family = "Frerebeau",
@@ -29,12 +29,12 @@ BugReports: https://github.com/tesselle/folio/issues
 Depends: R (>= 2.10)
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.1
 NeedsCompilation: no
-Packaged: 2022-05-05 15:12:37 UTC; nicolas
+Packaged: 2022-08-15 14:55:18 UTC; nicolas
 Author: Nicolas Frerebeau [aut, cre] (<https://orcid.org/0000-0001-5759-4944>,
     Université Bordeaux Montaigne),
   Brice Lebrun [ctb] (<https://orcid.org/0000-0001-7503-8685>, Université
     Bordeaux Montaigne)
 Repository: CRAN
-Date/Publication: 2022-05-05 23:20:20 UTC
+Date/Publication: 2022-08-15 15:50:02 UTC
