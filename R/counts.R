@@ -111,6 +111,30 @@
 #' @keywords datasets
 "compiegne"
 
+#' Medieval Ceramics from the Loire Basin
+#'
+#' A dataset containing the ceramic counts from the Loire Basin (France).
+#' @format A [`data.frame`] with 332 rows (archaeological assemblages) and 331
+#'  variables. The first five columns provide background information,
+#'  the next columns give the MNI of each ceramic types:
+#'  \describe{
+#'   \item{site}{Name of the archaeological site.}
+#'   \item{city}{City.}
+#'   \item{area}{Geographical area.}
+#'   \item{lower}{Lower bound of the temporal range.}
+#'   \item{upper}{Upper bound of the temporal range.}
+#'  }
+#' @references
+#'  Husi, P. (dir.). (2022). *La céramique médiévale et moderne du bassin de la
+#'  Loire moyenne, chrono-typologie et transformation des aires culturelles
+#'  dans la longue durée (6e-19e s.)*. Suppléments à la revue Archéologique du
+#'  Centre de la France, 79.
+#' @source
+#'  https://ceramedvaldeloire.huma-num.fr/editions/suppl79racf2022/accueil
+#' @family count data
+#' @keywords datasets
+"loire"
+
 #' Merzbach Ceramics
 #'
 #' A dataset containing the ceramic counts from the Merzbach assemblage
