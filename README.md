@@ -17,7 +17,7 @@ src="http://www.r-pkg.org/badges/version/folio"
 alt="CRAN Version" /></a>
 <a href="https://cran.r-project.org/web/checks/check_results_folio.html"
 class="pkgdown-release"><img
-src="https://cranchecks.info/badges/worst/folio"
+src="https://badges.cranchecks.info/worst/folio.svg"
 alt="CRAN checks" /></a>
 <a href="https://cran.r-project.org/package=folio"
 class="pkgdown-release"><img
@@ -42,8 +42,31 @@ analysis, diversity measurement, etc.).
 This package is for teaching purposes only: some datasets may be
 outdated.
 
-When using **folio**, you must cite the relevant publications for each
-dataset (see the documentation).
+**When using folio, you must cite the relevant publications for each
+dataset (see the documentation).**
+
+    To cite folio in publications use:
+
+      Frerebeau N (2024). _folio: Datasets for Teaching Archaeology and
+      Paleontology_. Université Bordeaux Montaigne, Pessac, France.
+      doi:10.5281/zenodo.4476182 <https://doi.org/10.5281/zenodo.4476182>,
+      R package version 1.4.0, <https://packages.tesselle.org/folio/>.
+
+    A BibTeX entry for LaTeX users is
+
+      @Manual{,
+        author = {Nicolas Frerebeau},
+        title = {{folio: Datasets for Teaching Archaeology and Paleontology}},
+        year = {2024},
+        organization = {Université Bordeaux Montaigne},
+        address = {Pessac, France},
+        note = {R package version 1.4.0},
+        url = {https://packages.tesselle.org/folio/},
+        doi = {10.5281/zenodo.4476182},
+      }
+
+    This package is a part of the tesselle project
+    <https://www.tesselle.org>.
 
 ## Installation
 
@@ -114,6 +137,15 @@ abline(fit, col = "red")
 ```
 
 <img src="man/figures/README-unnamed-chunk-2-1.png" style="display: block; margin: auto;" />
+
+## Related Works
+
+- [**archdata**](https://cran.r-project.org/package=archdata): includes
+  archaeological data sets used in [*Quantitative Methods in Archaeology
+  Using R*](https://doi.org/10.1017/9781139628730) by David L. Carlson
+  (2017).
+- [**historydata**](https://cran.r-project.org/package=historydata):
+  includes data sets intended for historians learning R.
 
 ## Contributing
 

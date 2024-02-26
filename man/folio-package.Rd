@@ -3,7 +3,6 @@
 \docType{package}
 \name{folio-package}
 \alias{folio-package}
-\alias{_PACKAGE}
 \alias{folio}
 \title{folio: Datasets for Teaching Archaeology and Paleontology}
 \description{
@@ -15,7 +14,7 @@ Datasets for teaching quantitative approaches and modeling in archaeology and pa
 \tabular{ll}{
 \strong{Package:} \tab folio \cr
 \strong{Type:} \tab Package \cr
-\strong{Version:} \tab 1.3.0 \cr
+\strong{Version:} \tab 1.4.0 \cr
 \strong{License:} \tab GPL-3 \cr
 \strong{Zenodo:} \tab \doi{10.5281/zenodo.4476182} \cr
 }

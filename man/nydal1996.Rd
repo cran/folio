@@ -5,13 +5,13 @@
 \alias{nydal1996}
 \title{\eqn{{}^{14}C}{14C} Measurements in Atmospheric \eqn{CO_2}{CO2}}
 \format{
-A \code{\link{data.frame}} with 5 variables:
+A \code{data.frame} with 620 observations and 5 variables:
 \describe{
-\item{site}{Sampling station.}
-\item{start}{Beginning date of the sampling period.}
-\item{end}{Ending date of the sampling period.}
-\item{delta}{Isotopic ratio \eqn{\Delta^{14}C}{\Delta14C} (per mil).}
-\item{sigma}{Error on \code{delta} (per mil).}
+\item{site}{\code{\link{character}}: sampling station.}
+\item{start}{\code{\link{Date}}: beginning date of the sampling period.}
+\item{end}{\code{\link{Date}}: ending date of the sampling period.}
+\item{delta}{\code{\link{numeric}}: isotopic ratio \eqn{\Delta^{14}C}{\Delta14C} (per mil).}
+\item{sigma}{\code{\link{numeric}}: error on \code{delta} (per mil).}
 }
 }
 \source{
@@ -41,7 +41,8 @@ Other isotopic data:
 \code{\link{lisiecki2005}},
 \code{\link{ngrip2004}},
 \code{\link{ngrip2010}},
-\code{\link{spratt2016}}
+\code{\link{spratt2016}},
+\code{\link{vegetation}}
 }
 \concept{isotopic data}
 \keyword{datasets}
