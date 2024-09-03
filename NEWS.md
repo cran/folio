@@ -1,3 +1,9 @@
+# folio 1.5.0
+
+* Add the `bronze` dataset (chemical data).
+* Add the `cities` dataset (geographical data).
+* Add the `inrap` dataset (geographical data).
+
 # folio 1.4.0
 
 * Add the `vegetation` dataset (isotopic data).
