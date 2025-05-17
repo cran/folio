@@ -5,8 +5,13 @@
 
 <!-- badges: start -->
 
-[![R-CMD-check](https://github.com/tesselle/folio/workflows/R-CMD-check/badge.svg)](https://github.com/tesselle/folio/actions)
-[![Dependencies](https://tinyverse.netlify.app/badge/folio)](https://cran.r-project.org/package=folio)
+<a href="https://ci.codeberg.org/repos/14690" class="pkgdown-devel"><img
+src="https://ci.codeberg.org/api/badges/14690/status.svg"
+alt="status-badge" /></a>
+<a href="https://cran.r-project.org/package=folio"
+class="pkgdown-devel"><img
+src="https://tinyverse.netlify.app/badge/folio"
+alt="Dependencies" /></a>
 
 <a href="https://tesselle.r-universe.dev" class="pkgdown-devel"><img
 src="https://tesselle.r-universe.dev/badges/folio"
@@ -50,10 +55,10 @@ dataset (see the documentation).**
 
 To cite folio in publications use:
 
-Frerebeau N (2024). *folio: Datasets for Teaching Archaeology and
+Frerebeau N (2025). *folio: Datasets for Teaching Archaeology and
 Paleontology*. Université Bordeaux Montaigne, Pessac, France.
 <doi:10.5281/zenodo.4476182> <https://doi.org/10.5281/zenodo.4476182>, R
-package version 1.5.0, <https://packages.tesselle.org/folio/>.
+package version 1.5.1, <https://packages.tesselle.org/folio/>.
 
 This package is a part of the tesselle project
 <https://www.tesselle.org>.
@@ -67,11 +72,11 @@ You can install the released version of **folio** from
 install.packages("folio")
 ```
 
-And the development version from [GitHub](https://github.com/) with:
+And the development version from [Codeberg](https://codeberg.org/) with:
 
 ``` r
 # install.packages("remotes")
-remotes::install_github("tesselle/folio")
+remotes::install_git("https://codeberg.org/tesselle/folio")
 ```
 
 ## Usage
@@ -130,11 +135,11 @@ abline(fit, col = "red")
 
 ## Related Works
 
-- [**archdata**](https://cran.r-project.org/package=archdata): includes
+- [**archdata**](https://cran.r-project.org/package=archdata) includes
   archaeological datasets used in [*Quantitative Methods in Archaeology
   Using R*](https://doi.org/10.1017/9781139628730) by David L. Carlson
   (2017).
-- [**historydata**](https://cran.r-project.org/package=historydata):
+- [**historydata**](https://cran.r-project.org/package=historydata)
   includes datasets intended for historians learning R.
 
 ## Contributing

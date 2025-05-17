@@ -1,3 +1,7 @@
+# folio 1.5.1
+
+* Update package metadata.
+
 # folio 1.5.0
 
 * Add the `bronze` dataset (chemical data).
